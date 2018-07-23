@@ -2,12 +2,11 @@
 // devtolist.js
 
 // simple node webscraper 
-// from tutorial by aurel kurtula
+// inspired by tutorial by aurel kurtula
 // https://dev.to/aurelkurtula/introduction-to-web-scraping-with-nodejs-9h2
 
-// currently this scrapes user dev.to/1selfsolutions
-// who wrote a series of 23 consecutive programming tutorials
-// based in python
+// currently this scrapes most read stories panel on front page on the 
+// washington post website
 
 
 let axios        = require('axios');
